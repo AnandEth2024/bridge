@@ -27,7 +27,7 @@ const { keccak256 } = require('ethers/lib/utils');
 const IAxelarGateway = require('../artifacts/@axelar-network/axelar-gmp-sdk-solidity/contracts/interfaces/IAxelarGateway.sol/IAxelarGateway.json');
 const IAxelarGasService = require('../artifacts/@axelar-network/axelar-cgp-solidity/contracts/interfaces/IAxelarGasService.sol/IAxelarGasService.json');
 const { setLogger } = require('@axelar-network/axelar-local-dev/dist/utils.js');
-const ERC1155crossChain  = require('../artifacts/contracts/ERC1155.sol/ERC1155crossChain.json');
+const ERC1155crossChain  = require('../artifacts/contracts/ERC1155.sol/ERC1155CrossChain.json');
 
 
 let contract, ERC1155_Eth_contract, ERC1155_Avalanche_contract;
